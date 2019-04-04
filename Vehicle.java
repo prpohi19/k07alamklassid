@@ -9,6 +9,10 @@ public abstract class Vehicle {
 		this.model=model;
 	}
 	
+    public String toString() {
+        return "Reg. märk: "+this.regnr+" Mark: "+this.mark+" Mudel: "+this.model;
+    }
+	
 	abstract double getLuggageCapacity();
 	
 	
