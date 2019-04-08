@@ -11,12 +11,25 @@ public class Motorboat extends Vehicle {
 	}
 	
 	public void pushToWater() {
+		if(this.inWater) {
+			System.out.println(this+"| on juba meres.");
+			return;
+		}
 		inWater = true;
-		System.out.println("Paat lükati merre");
+		System.out.println(this+" lükati merre");
 	}
-	public void pushToShore() {
+	public void driveToShore() {
+		if(!this.inWater) {
+			System.out.println(this+"| on juba kaldal.");	
+			return;
+		}
+		if(this.fuel < 5) {
+			System.out.println(this+"| ei oma piisavalt kütust, et kaldale sõita.");
+			return;
+		}
 		inWater = false;
-		System.out.println("Paat lükati kaldale");
+		System.out.println(this+" sõitis kaldale kaldale");
+		this.fuel -= 5;
 	}
 	
 	@Override

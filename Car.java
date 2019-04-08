@@ -10,12 +10,32 @@ public class Car extends Vehicle {
 	}
 	
 	public void DriveToShop() {
+		if(this.inShop) {
+			System.out.println(this+"| on juba poes.");	
+			return;
+		}
+		if(this.fuel < 5) {
+			System.out.println(this+"| ei oma piisavalt kütust, et poodi sõita.");	
+			return;
+		}
+		
 		inShop = true;
-		System.out.println("Auto sõitis poodi.");
+		System.out.println(this+" sõitis poodi.");	
+		this.fuel -= 5;
 	}
 	public void DriveToHome() {
+		if(!this.inShop) {
+			System.out.println(this+"| on juba kodus.");	
+			return;
+		}
+		if(this.fuel < 5) {
+			System.out.println(this+"| ei oma piisavalt kütust, et koju sõita.");
+			return;
+		}
+		
 		inShop = false;
-		System.out.println("Auto sõitis koju.");
+		System.out.println(this+" sõitis koju.");
+		this.fuel -= 5;
 	}
 	
 	@Override
