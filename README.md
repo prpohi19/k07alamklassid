@@ -4,3 +4,12 @@ Näide päriluse kohta, kus on vähemalt üks ülemklass, selle kaks alamklassi,
 Eraldi funktsioon ülemklassi tüüpi muutuja kasutamiseks ning selle toimimisnäide eri klassidest objektide peal.
 
 Võib kasutada mõnd olemasolevat tutoriali ning sealt näited omale sobivaks kohandada
+
+Class structure:
+```
+Entity --- Projectile
+       |
+       +-- Character --- Player
+                     |
+                     +-- Monster
+```
