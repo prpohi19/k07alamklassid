@@ -10,4 +10,8 @@ public class Dog extends Pet{
   public String Hello(){
     return "Mina olen " + species + " " + name + " ja minu sabapikkus on " + tailLength + " cm!";
   }
+  @Override
+  public String Sound(){
+    return "Woof";
+  }
 }
