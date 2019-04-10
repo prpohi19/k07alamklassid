@@ -1,0 +1,5 @@
+Manager's salary : 1500
+1st Clerk's salary : 1000
+2nd Clerk's salary : 1000
+3rd Clerk's salary : 1000
+
