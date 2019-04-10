@@ -14,3 +14,15 @@ public class Main{
       System.out.println("Varjupaigas on " + shelter.length + " looma!");
     }
   }
+
+/* 
+Woof
+Mina olen koer Matu ja minu sabapikkus on 7.0 cm!
+Ma olen 5 aastane!
+****************
+Meow
+Mina olen kass Liisu ja minu sabapikkus on 5.0 cm!
+Ma olen 4 aastane!
+****************
+Varjupaigas on 3 looma!
+*/
