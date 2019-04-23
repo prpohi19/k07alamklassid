@@ -19,3 +19,11 @@ public class Main{
         }
     }
 }
+
+/*Tehtud Kiirelt ja märkamatult
+Alati valmis.
+Odav
+
+Tegelane:Agent 47, Raha vaja: 20000 Õnnestumise %: 90, aega kulub: 60min
+Tegelane:Mason, Raha vaja: 10000 Õnnestumise %: 60, aega kulub: 180min
+Tegelane:Bob, Raha vaja: 4000 Õnnestumise %: 20, aega kulub: 100min*/
