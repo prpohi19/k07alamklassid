@@ -1,0 +1,4 @@
+enum Tootjad {
+    Intel,
+    AMD
+        }
