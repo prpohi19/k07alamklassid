@@ -10,10 +10,10 @@ public abstract class Vehicle {
     }
 
     public void sound(){
-      System.out.println("igal loomal on oma häälitsus");
+      System.out.println("Sõiduki hääl"); // See kirjutatakse üle
     }
 
     public void information(){
-      System.out.println("looma tutvustus");
+      System.out.println("Sõiduki informatsioon"); // See kirjutatakse üle
     }
 }
